@@ -3,12 +3,24 @@ clear
 figlet AHS TEAM | lolcat
 echo "====================================================
 
-\e[0;36m# AUTHOR  : A SETENGAH 12
-\e[0;36m# TEAM    : CYBER AHS INDO
-\e[0;36m# CONTACT : zainicahganteng246@gmail.com
+\e[1;32m# AUTHOR  : A SETENGAH 12
+\e[1;32m# TEAM    : CYBER AHS INDO
+\e[1;32m# CONTACT : zainicahganteng246@gmail.com
 
 ====================================================" | lolcat
 sleep1
 echo \e[0;36m" PILIH NOMOR UNTUK MENADAPATKAAN INFORMASI : " | lolcat
 echo \e[0;36m" [01] JADWAL SHIFT" | lolcat
-echo \e[0;36m
+echo \e[0;36m" [02] YANG MAU DAFTAR" | lolcat
+echo \e[0;36m" [03] PERATURAN" | lolcat
+echo \e[0;36m" [04] JADWAL KAS TEAM" | lolcat
+echo \e[1;37m" Nomor  : " | lolcat
+read nomor
+
+if [ $nomor = 1] || [ $nomor =01 ]
+then
+clear
+echo \e[0;32m" SHIFT MALAM
+echo \e[0;32m" 01. A SETETENGAH 12
+echo \e[0;32m" 02. MAMANGLUBIZ
+echo \e[0;32m"
