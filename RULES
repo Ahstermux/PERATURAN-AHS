@@ -1,0 +1,56 @@
+#!/system/xbin/bash
+# Bersihkan Layar
+clear
+blue='\033[34;1m'
+green='\033[32;1m'
+purple='\033[35;1m'
+cyan='\033[36;1m'
+red='\033[31;1m'
+white='\033[37;1m'
+yellow='\033[33;1m'
+###################################################
+# Team Ahs Termux
+###################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo  $red"[#]> (Ctrl + C ) Detected, 
+Trying To Exit ... "
+sleep 1
+echo ""
+echo  $yellow"[#]> Thank You For Using My 
+Tools ... "
+sleep 1
+echo ""
+echo  $white"[#]> Mr.AHS
+Here ... "
+read enter
+exit
+}
+=================================================
+echo $white"Author : PDT AHS TERMUX INDO"
+echo $white"Team : TEAM TERMUX AHS"
+echo $white"Thanks To :PDT | SEKETARIS PDT| MANUSIA TANPA JIWA | SHIFT 1 | "
+echo $white"Thanks To :Indonesia Hidayah"
+echo $white"thanks To : AHS CYBER"
+echo $white"thanks To : JATIM BLACK HAT"
+echo $white"thanks To : Blackhat Hacker Indonesia"
+
+=================================================
+echo  $yellow" 01) SHIFT AKTIVITAS"
+echo  $yellow" 02) Daftar Masuk Team AHS"
+echo  $yellow" 03) RULES"
+echo  $yellow" 04) INFO KAS"
+echo  $red" 15) Exit "
+echo  $white""
+I -p "[AHS TEAM]> " bro;
+
+if [ $bro = 1 ] || [ $bro = 01 ]
+clear
+echo  $cyan" SHIFT MALAM "
+echo  $cyan" 01 "
+echo  $cyan" 02 "
+echo  $cyan" SHIFT PAGI "
+echo  $cyan" 01 "
+echo  $cyan" 02 "
+exit
