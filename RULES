@@ -20,7 +20,12 @@ read nomor
 if [ $nomor = 1] || [ $nomor =01 ]
 then
 clear
-echo \e[0;32m" SHIFT MALAM
-echo \e[0;32m" 01. A SETETENGAH 12
-echo \e[0;32m" 02. MAMANGLUBIZ
-echo \e[0;32m"
+echo \e[0;32m" SHIFT MALAM" | lolcat
+echo \e[0;32m" 01. A SETETENGAH 12" | lolcat
+echo \e[0;32m" 02. MAMANGLUBIZ" | lolcat
+echo \e[0;32m" DST" | lolcat
+echo \e[0;32m" SHIFT PAGI" | lolcat
+echo \e[0;32m" 01. JAM 11" | lolcat
+echo \e[0;32m" 02. " |lolcat
+echo \e[0;32m" DST" | lolocat
+fi
